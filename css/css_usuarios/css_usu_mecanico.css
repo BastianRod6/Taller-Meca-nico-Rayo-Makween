@@ -1,0 +1,88 @@
+.volver_inicio a {
+    text-decoration: none;
+    float: right;
+}
+
+body {
+    width: 90.9%;
+}
+
+main {
+    background-color: darkblue;
+    width: 100%;
+    height: 100vh;
+}
+
+#contador_mantenciones {
+    background-color: orange;
+    margin-top: 40px;
+    text-align: center;
+    width: 80%;
+    height: 20vh;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contador_mantenciones h1 {
+    padding: 20px;
+    width: auto;
+}
+
+#contador_mantenciones h4 {
+    display: inline;
+    width: 200px;
+}
+
+#n_mantenciones {
+    width: 70px;
+    font-size: xx-large
+}
+
+.cuadro {
+    background-color: orange;
+    margin-top: 20px;
+    width: 80%;
+    height: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+
+#ingreso_mantencion {
+    display: block;
+    height: 70vh;
+}
+
+#ingreso_mantencion h2 {
+    text-align: center;
+}
+
+#ingreso_mantencion textarea {
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+}
+
+#ingreso_mantencion .auxiliar {
+    float: right;
+    display: inline;
+    margin-top: 50px;
+    margin-right: 150px;
+    width: 200px;
+    padding: 20px;
+}
+
+.auxiliar form {
+    margin-top: 50px;
+}
+
+.auxiliar .bton_enviar {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#ingreso_mantencion h4 {
+    margin-left: 20px;
+    margin-top: 5px;
+}

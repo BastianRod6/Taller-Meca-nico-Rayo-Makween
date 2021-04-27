@@ -1,0 +1,42 @@
+.menu-bar {
+    float: right;
+}
+
+.volver_inicio a {
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    height: 88vh;
+    background-color: darkblue;
+}
+
+#formulario {
+    margin-top: 90px;
+}
+
+.formulario_registro h1 {
+    background-color: orange;
+    width: 90%;
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.formulario_registro .inputs {
+    background-color: #FF6800;
+    max-width: 500px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.formulario_registro .inputs input {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+}

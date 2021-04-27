@@ -1,0 +1,75 @@
+.menu-bar {
+    float: right;
+}
+
+.volver_inicio a {
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    height: 160vh;
+    background-color: darkblue;
+}
+
+#formulario_cont {
+    width: 50%;
+    height: 140vh;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background-color: #FF6800;
+}
+
+#formulario_cont h1 {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px 30px 0 0;
+}
+
+#formulario_cont .inputs_contacto {
+    float: left;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+#formulario_cont .inputs_contacto #txtRut_cliente {
+    border: solid red;
+}
+
+#formulario_cont input {
+    padding: 20px;
+}
+
+#formulario_cont h5 {
+    padding-top: 15px;
+}
+
+#formulario_cont select {
+    padding: 20px;
+}
+
+#formulario_cont .inputs_auto {
+    float: left;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.descripcion_problema {
+    display: block;
+    float: left;
+    bottom: 0px;
+    width: 550px;
+    height: 20vh;
+    padding-left: 45px;
+}
+
+.bton_contacto_enviar {
+    background-color: orange;
+    display: block;
+    float: right;
+    margin-right: 50px;
+    border-radius: 20px;
+}

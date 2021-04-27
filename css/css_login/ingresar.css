@@ -1,0 +1,17 @@
+@import url(login.css);
+.botones {
+    display: flex;
+    margin: 20px;
+}
+
+.registrate_aqui {
+    text-align: center;
+}
+
+.menu-bar {
+    float: right;
+}
+
+.volver_inicio a {
+    text-decoration: none;
+}
