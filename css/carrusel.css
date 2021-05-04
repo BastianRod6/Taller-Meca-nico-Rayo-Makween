@@ -3,8 +3,6 @@
     padding-bottom: 15px;
     text-align: center;
     font-size: x-large;
-    -webkit-text-stroke: 1px black;
-    /*para poner el borde negro a la letra*/
     color: white;
 }
 

@@ -9,35 +9,47 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/css_login/login.css">
 
+    <script src="lib/jquery.js"></script>
+    <script src="dist_jqv/jquery.validate.min.js"></script>
+
 
 </head>
 
 <body>
-    <header>
+    <<header>
         <div class="contenedor">
-            <div class="logo">
-                <h1>\ō͡≡o˞̶ </h1>
-                <p>Rayo Macween</p>
-            </div>
+            
+            <h1 class="icon-cog-alt">Rayo Makween</h1>
+        
+
+            <input type="checkbox" name="" id="menu-bar">
+            <label class="icon-menu-1" for="menu-bar"></label>
+            
+            
+            <nav class="menu">
+                <a href="menu.html">Inicio</a>
+                <a href="nuestros_mecanico.html">Nuestros Mecánicos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="Ingresar.html">Ingresar</a>
+            </nav>
+
         </div>
-        <div class="menu-bar">
-            <ul>
-                <div class="volver_inicio">
-                    <a href="menu.html">Inicio >>></a>
-                </div>
-            </ul>
-        </div>
+
     </header>
     <main>
         <section id="formulario">
             <form class="formulario_registro" action="" method="post">
                 <h1>Registrate</h1>
                 <div class="inputs">
-                    <input type="text" name="txtNombre_usuario" id="" placeholder="Nombre de Usuario">
-                    <input type="email" name="txtEmail" id="" placeholder="Correo">
-                    <input type="password" name="txtContraseña" id="" placeholder="Contraseña">
-                    <input class="bton_registro" type="submit" value="Resgistrar" formaction="Ingresar.html">
-                    <input class="bton_registro" type="button" value="Validacion formulario" onclick="hola()">
+                    <h5>Nombre usuario</h5>
+                    <input type="text" name="txtNombre_usuario" id="txt_user" placeholder="Nombre de Usuario" maxlength="15" required>
+                    <h5>Correo</h5>
+                    <input type="email" name="txtEmail" id="" placeholder="Correo" required>
+                    <h5>Contraseña</h5>
+                    <input type="password" name="txtContraseña" id="txt_pass1" placeholder="Contraseña" required>
+                    <h5>Repetir contraseña</h5>
+                    <input type="password" name="txtContraseña" id="txt_pass2" placeholder="Contraseña" required>
+                    <input class="bton_registro" type="submit" value="Registrar" formaction="Ingresar.html">
                 </div>
             </form>
         </section>

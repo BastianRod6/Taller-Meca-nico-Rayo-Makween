@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Mecánico Usuario</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/css_usuarios/revisar_trabaj.css">
+
+</head>
+
+<body>
+
+    <<header>
+        <div class="contenedor">
+            
+            <h1 class="icon-cog-alt">Rayo Makween</h1>
+        
+
+            <input type="checkbox" name="" id="menu-bar">
+            <label class="icon-menu-1" for="menu-bar"></label>
+            
+            
+            <nav class="menu">
+                <a href="usuario_admin.html">Salir</a>
+            </nav>
+
+            
+
+        </div>
+
+
+    </header>
+    <main>
+        <table id="contendora_revisar">
+            <td id="td1">
+                <section id="escritura">
+                    <h3>Mecánico nombre</h3>
+                    <h4>Categorío Frenos</h4>
+                    <table>
+                        <tr>
+                            <td>Diagnostico</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod nam earum optio vitae, ad incidunt excepturi molestiae repellendus quaerat dicta perferendis consequatur accusamus soluta minus ipsam beatae! Placeat, minus ipsam?</td>
+                        </tr>
+                        <tr>
+                            <td>Fecha Tecnica</td>
+                            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos assumenda ab quas illo ipsum adipisci ducimus recusandae? Necessitatibus ipsa repellendus, illo quisquam et quam, dolore dolorem nam temporibus omnis eius.</td>
+                        </tr>
+                        <tr>
+                            <td>Implementos</td>
+                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem recusandae aliquam mollitia similique tempore, suscipit, id illum, provident fuga veniam laboriosam fugiat ducimus vel ad dolorem rerum amet quod error!</td>
+                        </tr>
+
+                    </table>
+                </section>
+            </td>
+            <td id="td2">
+                <section id="fotos">
+                    <table>
+                        <tr>
+                            <td><img src="img/revisar_traba/img1.jpg" alt=""></td>
+                            <td><img src="img/revisar_traba/img2.jpg" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/revisar_traba/img3.jpg" alt=""></td>
+                            <td><img src="img/revisar_traba/img4.jpg" alt=""></td>
+                        </tr>
+                    </table>
+
+
+                </section>
+            </td>
+        </table>
+
+
+        <section id="recha-publica">
+            <form>
+                <input class="bton_rechaza" type="submit" value="Rechaza" formaction="usuario_admin.html" onclick="mensaje_rechazado()">
+                <textarea name="motivo_rechazo" id="" cols="30" rows="10">Motivo Rechazo</textarea>
+                <input class="bton_publicar" type="submit" value="Publicar" formaction="usuario_admin.html" onclick="publicado()">
+            </form>
+        </section>
+        <script src="js/scrip.js"></script>
+
+    </main>
+
+</body>

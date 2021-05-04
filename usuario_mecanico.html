@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taller Mecánico</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/css_usuarios/css_usu_mecanico.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="contenedor">
+            
+            <h1 class="icon-cog-alt">Rayo Makween</h1>
+        
+
+            <input type="checkbox" name="" id="menu-bar">
+            <label class="icon-menu-1" for="menu-bar"></label>
+            
+            
+            <nav class="menu">
+                <a href="Ingresar.html">Salir</a>
+            </nav>
+
+            
+
+        </div>
+
+
+    </header>
+    <main>
+
+        <section id="contador_mantenciones">
+            <h1>Hola Mecánico</h1>
+
+            <h4>Haz hecho</h4>
+            <h4> <input type="number" id="n_mantenciones" min="0" name="n_mantenciones" step="1" value="3"></h4>
+            <h4>Mantenciones</h4>
+
+
+        </section>
+        <div class="cuadro">
+            <section id="ingreso_mantencion">
+                <h2>¿Qué Trabajo hiciste hoy?</h2>
+                <div class="auxiliar">
+                    <select name="Comuna_Cliente" id="Comuna_Cliente">
+                        <option value="cate">Categoría</option>
+                        <option value="cate_1">Mantencion kilometraje</option>
+                        <option value="cate_2">Cambio de aceite</option>
+                        <option value="cate_3">Frenos</option>
+                        <option value="cate_4">Revision Completa</option>
+                        <option value="cate_5">Baterías</option>
+                        <option value="cate_6">Scanner</option>
+                        <option value="cate_7">Cambio Neumáticos</option>
+                    </select>
+                    <form name="formulario" method="post" action="/send.php" enctype="multipart/form-data">
+                        <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple />
+                    </form>
+                    <input class="bton_enviar" type="submit" value="Enviar a Administrador">
+                </div>
+                <h4>Diagnostico</h4>
+                <textarea name="Diagnostico" id="" cols="50" rows="5"></textarea>
+                <h4>Ficha Técnica</h4><textarea name="Diagnostico" id="" cols="50" rows="5"></textarea>
+                <h4>Implementos</h4>
+                <textarea name="Diagnostico" id="" cols="50" rows="5"></textarea>
+            </section>
+
+
+        </div>
+
+    </main>
+
+
+
+
+</body>

@@ -1,3 +1,8 @@
+#contenedor_servicios{
+    width: 100%;
+    height: auto;
+}
+
 #servicios h2 {
     padding-top: 15px;
     padding-bottom: 15px;
@@ -9,10 +14,13 @@
 }
 
 #servicios ul {
-    display: flex;
+    text-align: center;
+    width: 100%;
+    display: table;
     list-style: none;
     padding: 5px;
     padding-bottom: 20px;
+    
 }
 
 #servicios ul li {
@@ -22,6 +30,6 @@
 }
 
 #servicios ul li img {
-    width: 80%;
+    width: 20%;
     height: 20vh;
 }

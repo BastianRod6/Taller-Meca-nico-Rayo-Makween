@@ -8,24 +8,36 @@
     <title>Taller Mecánico</title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="css/css_login/contacto.css">
+    <script src="js/scrip.js">
+
+    </script>
+
 
 </head>
 
 <body>
     <header>
         <div class="contenedor">
-            <div class="logo">
-                <h1>\ō͡≡o˞̶ </h1>
-                <p>Rayo Macween</p>
-            </div>
+            
+            <h1 class="icon-cog-alt">Rayo Makween</h1>
+        
+
+            <input type="checkbox" name="" id="menu-bar">
+            <label class="icon-menu-1" for="menu-bar"></label>
+            
+            
+            <nav class="menu">
+                <a href="menu.html">Inicio</a>
+                <a href="nuestros_mecanico.html">Nuestros Mecánicos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="Ingresar.html">Ingresar</a>
+            </nav>
+
+            
+
         </div>
-        <div class="menu-bar">
-            <ul>
-                <div class="volver_inicio">
-                    <a href="menu.html">Inicio >>></a>
-                </div>
-            </ul>
-        </div>
+
+
     </header>
     <main>
 
@@ -34,54 +46,51 @@
                 <h1>Contactanos</h1>
                 <div class="inputs_contacto">
                     <h2>Datos Personales</h2>
-                    <h5>Rut</h5>
-                    <input type="text" name="txtRut_cliente" id="txtRut_cliente" placeholder="11111111-1">
-                    <h5>Nombre y Apellido</h5>
-                    <input type="text" name="txtNombre_cliente" id="txtNombre_cliente" placeholder="Nombre y Apellido">
-                    <h5>Fecha Nacimineto</h5>
+                    <h5>Rut*</h5>
+                    <input type="text" name="txtRut_cliente" id="txtRut_cliente" placeholder="11111111-1" maxlength="10" required>
+                    <h5>Nombre y Apellido*</h5>
+                    <input type="text" name="txtNombre_cliente" id="txtNombre_cliente" placeholder="Nombre y Apellido"maxlength=25 required>
+                    <h5>Fecha Nacimineto*</h5>
                     <input type="date" name="txtFecha_cliente" id="txtFecha_cliente">
-                    <h5>Telefono</h5>
-                    <input type="text" name="txtTelefono_cliente" id="txtTelefono_cliente" placeholder="Telefono">
-                    <h5>Correo</h5>
-                    <input type="email" name="txtMail_cliente" id="txtMail_cliente" placeholder="Correo">
-                    <H5>Comuna</H5>
+                    <h5>Telefono*</h5>
+                    <input type="text" name="txtTelefono_cliente" id="txtTelefono_cliente" placeholder="Telefono" minlength="8" maxlength="8" required>
+                    <h5>Correo*</h5>
+                    <input type="email" name="txtMail_cliente" id="txtMail_cliente" placeholder="Correo" required>
+                    <H5>Comuna*</H5>
                     <select name="Comuna_Cliente" id="Comuna_Cliente">
-                        <option value="Comuna_1">Comuna 1</option>
-                        <option value="comuna_2">Comuna 2</option>
-                        <option value="comuna_3">Comuna 3</option>
-                        <option value="comuna_4">Comuna 4</option>
+                        <option value="Comuna_1">Puente Alto</option>
+                        <option value="comuna_2">La Pintana</option>
+                        <option value="comuna_3">El Bosque</option>
+                        <option value="comuna_4">La Florida</option>
                     </select>
                 </div>
                 <div class="inputs_auto">
                     <h2>Datos Auto</h2>
-                    <h5>Patente</h5>
-                    <input type="text" name="txtPatente_auto" id="txtPatente_auto">
-                    <h5>Marca</h5>
-                    <input type="text" name="txtMarca_auto" id="txtMarca_auto">
-                    <h5>Modelo</h5>
-                    <input type="text" name="txtModelo_auto" id="txtModelo_auto">
-                    <h5>Año</h5>
-                    <input type="number" id="txtAnio" min="1900" max="2021" step="1" value="2020" />
+                    <h5>Patente*</h5>
+                    <input type="text" name="txtPatente_auto" id="txtPatente_auto" placeholder="AB-CD-12" maxlength="8" required>
+                    <h5>Marca*</h5>
+                    <input type="text" name="txtMarca_auto" id="txtMarca_auto" maxlength="15" required>
+                    <h5>Modelo*</h5>
+                    <input type="text" name="txtModelo_auto" id="txtModelo_auto" maxlength="15" required>
+                    <h5>Año*</h5>
+                    <input type="number" id="txtAnio" min="1900" max="2021" step="1" value="2020" required>
                     <div class="posee_seguro">
                         <h5>Posee seguro</h5>
                         <label class="checkbox-inline">
                                 SI <input type="checkbox" name="SI" id="SI">
                         </label>
-                        <label class="checkbox-inline">
-                                NO <input type="checkbox" name="NO" id="NO">
-                        </label>
+                        
                     </div>
                 </div>
 
                 <div class="descripcion_problema">
-                    <h5>¿Qué Servicio requiere su Vehículo?</h5>
-                    <textarea name="Tipo_servicio" id="" cols="70" rows="5">
-                Describa su consulta
-                </textarea>
+                    <h5>¿Qué Servicio requiere su Vehículo?*</h5>
+                    <textarea name="Tipo_servicio" id="" cols="70" rows="5" maxlength="250"></textarea>
                 </div>
-                <input class="bton_contacto_enviar" type="submit" value="Enviar">
+                <input id="boton" class="bton_contacto_enviar" type="submit" value="Enviar" required>
             </form>
         </section>
     </main>
 
 </body>
+

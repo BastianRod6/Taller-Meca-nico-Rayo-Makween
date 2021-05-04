@@ -8,7 +8,7 @@
 .buscador {
     display: block;
     float: right;
-    padding-right: 70px;
+    
 }
 
 .buscador ul {
@@ -32,9 +32,9 @@
 
 .buscador .boton_lupa img {
     width: 30px;
-    height: 30px;
+    height: 28px;
     padding-left: 7px;
-    padding-top: 5px;
+    
     cursor: pointer;
 }
 

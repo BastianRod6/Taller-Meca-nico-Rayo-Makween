@@ -6,8 +6,10 @@ footer {
 
 footer img {
     float: left;
-    width: 3%;
+    width: 40px;
     padding-left: 20px;
+    padding-top: 15px;
+    align-items: center;
 }
 
 footer h2 {
@@ -15,4 +17,6 @@ footer h2 {
     padding-left: 80px;
     padding-top: 20px;
     font-size: medium;
+    text-align: center;
+    font-size: x-large;
 }

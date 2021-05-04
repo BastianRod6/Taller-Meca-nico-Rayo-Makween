@@ -1,10 +1,5 @@
-.volver_inicio a {
-    text-decoration: none;
-    float: right;
-}
-
 body {
-    width: 90.9%;
+    width: 100%;
 }
 
 main {
@@ -18,7 +13,7 @@ main {
     margin-top: 40px;
     text-align: center;
     width: 80%;
-    height: 20vh;
+    height: auto;
     border-radius: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -27,6 +22,7 @@ main {
 #contador_mantenciones h1 {
     padding: 20px;
     width: auto;
+    
 }
 
 #contador_mantenciones h4 {

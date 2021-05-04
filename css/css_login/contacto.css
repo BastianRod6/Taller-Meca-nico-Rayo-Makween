@@ -7,8 +7,8 @@
 }
 
 main {
-    width: 90%;
-    height: 160vh;
+    width: 100%;
+    height: auto;
     background-color: darkblue;
 }
 
@@ -35,9 +35,6 @@ main {
     padding-left: 50px;
 }
 
-#formulario_cont .inputs_contacto #txtRut_cliente {
-    border: solid red;
-}
 
 #formulario_cont input {
     padding: 20px;

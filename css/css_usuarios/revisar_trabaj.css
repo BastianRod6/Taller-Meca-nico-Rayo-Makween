@@ -1,0 +1,60 @@
+.volver_inicio a {
+    text-decoration: none;
+    float: right;
+}
+
+main {
+    background-color: darkblue;
+}
+
+main #contendora_revisar {
+    background-color: orange;
+    width: 80%;
+    margin: auto;
+}
+
+#td1 {
+    width: 50%;
+}
+
+#escritura table {
+    width: 90%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#escritura h3 {
+    margin-left: 50px;
+}
+
+#escritura h4 {
+    margin-left: 50px;
+}
+
+#escritura table td {
+    border: solid 2px black;
+}
+
+img {
+    flex-wrap: wrap;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#fotos table td {
+    width: 50%;
+}
+
+#recha-publica {
+    background-color: orange;
+    width: 80%;
+    margin: auto;
+}
+
+#recha-publica input {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    margin-bottom: 40px;
+}
