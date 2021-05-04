@@ -3,5 +3,5 @@ function publicado() {
 }
 
 function mensaje_rechazado() {
-    alert('Se envió el morivo de Rechazo a Mecánico')
+    alert('Se envió el motivo de Rechazo a Mecánico')
 }
